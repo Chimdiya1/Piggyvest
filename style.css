@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style-type: none;
+}
+
+nav{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#144499;
+    font-size: 14px;
+    padding: 7px 0;
+}
+ul{
+    display: flex;
+}
+.logo{
+    width: 180px;
+}
+.nav-link{
+    padding: 10px 20px;
+    transition: all .3s ease-in-out;
+    
+}
+.nav-link:hover{
+    color: #30c57b;
+}
+.create-account{
+    border: 1px solid #083e9e;
+    border-radius: 5px;
+    padding: 15px 30px;
+    transition: all .3s ease-in-out;
+    
+}
+.create-account:hover{
+    background-color:#083e9e ;
+    border: 1px solid #083e9e;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 30px;
+}
+
+.landing{
+    width: 90%;
+    margin: 20px auto 1000px;
+    padding: 100px 0 150px;
+    background: url('./images/woman-header-min.png');
+    background-position: top right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.landing > h1{
+    color: #083e9e;
+    font-size: 50px;
+    font-family:  Helvetica, sans-serif;
+    letter-spacing: -2px;
+    line-height: 55px;
+}
+.landing > p{
+    color: #444444;
+    font-size: 16px;
+    margin: 20px 0;
+    width: 50%;
+    line-height: 24px;
+}
+.create-free-account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #30c57b;
+    background-color: #30c57b;
+    color: white;
+    width: 250px;
+    border-radius: 5px;
+    padding: 15px 30px;
+    transition: all .3s ease-in-out;
+}
+.create-free-account:hover{
+    border: 1px solid #083e9e;
+    background-color: white;
+    color: #083e9e;
+}
+.actions > img{
+    margin-top: 50px;
+    height: 40px;
+}
